@@ -1,0 +1,207 @@
+Peptide/protein number: 89319
+566 566
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+25000
+26000
+27000
+28000
+29000
+30000
+31000
+32000
+33000
+34000
+35000
+36000
+37000
+38000
+39000
+40000
+41000
+42000
+43000
+44000
+45000
+46000
+47000
+48000
+49000
+50000
+51000
+52000
+53000
+54000
+55000
+56000
+57000
+58000
+59000
+60000
+61000
+62000
+63000
+64000
+65000
+66000
+67000
+68000
+69000
+70000
+71000
+72000
+73000
+74000
+75000
+76000
+77000
+78000
+79000
+80000
+81000
+82000
+83000
+84000
+85000
+86000
+87000
+88000
+89000
+genetating finished
+
+   ANDN920101  ARGP820101  ARGP820102  ARGP820103  BEGF750101  BEGF750102  ...  KARS160118  KARS160119  KARS160120  KARS160121  KARS160122     pI
+0      143.96       25.27       39.39       44.62       25.91       24.53  ...      195.42      581.75      134.88      257.49       51.30  6.418
+1      149.58       24.38       26.12       32.28       25.65       24.12  ...      214.20      701.13      147.59      294.44       83.62  3.886
+2      152.42       27.80       33.16       39.66       22.16       25.91  ...      203.79      658.00      137.37      296.93       95.85  7.245
+3       44.16        6.31       10.79       13.15        8.31        7.37  ...       60.40      176.71       42.27       76.67       13.28  6.124
+4       65.24        7.28       17.49       18.00       10.71       10.76  ...       94.33      313.44       63.41      129.87       31.64  6.286
+
+[5 rows x 567 columns]
+
+Top 10 features:
+0.72768 	 FAUJ880112 	 Negative charge (Fauchere et al.; 1988)
+0.47767 	 CHAM830107 	 A parameter of charge transfer capability (Charton-Charton; 1983)
+0.45322 	 ZIMJ680103 	 Polarity (Zimmerman et al.; 1968)
+0.44046 	 RICJ880106 	 Relative preference value at N3 (Richardson-Richardson; 1988)
+0.43215 	 FAUJ880110 	 Number of full nonbonding orbitals (Fauchere et al.; 1988)
+0.42669 	 HOPA770101 	 Hydration number (Hopfinger; 1971); Cited by Charton-Charton (1982)
+0.38673 	 ISOY800107 	 Normalized relative frequency of double bend (Isogai et al.; 1980)
+0.35813 	 RICJ880105 	 Relative preference value at N2 (Richardson-Richardson; 1988)
+0.34565 	 ENGD860101 	 Hydrophobicity index (Engelman et al.; 1986)
+0.34549 	 PRAM900101 	 Hydrophobicity (Prabhakaran; 1990)
+
+f_regression
+          Specs          Score
+88   FAUJ880112  100524.340973
+29   CHAM830107   26403.736367
+399  ZIMJ680103   23089.475036
+326  RICJ880106   21499.062942
+86   FAUJ880110   20510.239472
+113  HOPA770101   19880.717322
+124  ISOY800107   15707.009209
+325  RICJ880105   13141.310137
+542  ENGD860101   12118.556918
+251  PRAM900101   12105.981691
+
+Mutual_info_regression
+          Specs     Score
+482  MITS020101  0.852566
+399  ZIMJ680103  0.760821
+88   FAUJ880112  0.747394
+92   FINA910102  0.283114
+94   FINA910104  0.268883
+563  KARS160120  0.268757
+87   FAUJ880111  0.268734
+29   CHAM830107  0.252484
+113  HOPA770101  0.244979
+86   FAUJ880110  0.231656
+1 	 100524.341 	 FAUJ880112 	 Negative charge (Fauchere et al.; 1988)
+2 	 26403.736 	 CHAM830107 	 A parameter of charge transfer capability (Charton-Charton; 1983)
+3 	 23089.475 	 ZIMJ680103 	 Polarity (Zimmerman et al.; 1968)
+4 	 21499.063 	 RICJ880106 	 Relative preference value at N3 (Richardson-Richardson; 1988)
+5 	 20510.239 	 FAUJ880110 	 Number of full nonbonding orbitals (Fauchere et al.; 1988)
+6 	 19880.717 	 HOPA770101 	 Hydration number (Hopfinger; 1971); Cited by Charton-Charton (1982)
+7 	 15707.009 	 ISOY800107 	 Normalized relative frequency of double bend (Isogai et al.; 1980)
+8 	 13141.310 	 RICJ880105 	 Relative preference value at N2 (Richardson-Richardson; 1988)
+9 	 12118.557 	 ENGD860101 	 Hydrophobicity index (Engelman et al.; 1986)
+10 	 12105.982 	 PRAM900101 	 Hydrophobicity (Prabhakaran; 1990)
+11 	 0.853 	 MITS020101 	 Amphiphilicity index (Mitaku et al.; 2002)
+   	 0.761 	 ZIMJ680103 	 Polarity (Zimmerman et al.; 1968)
+   	 0.747 	 FAUJ880112 	 Negative charge (Fauchere et al.; 1988)
+12 	 0.283 	 FINA910102 	 Helix initiation parameter at posision i;i+1;i+2 (Finkelstein et al.; 1991)
+13 	 0.269 	 FINA910104 	 Helix termination parameter at posision j+1 (Finkelstein et al.; 1991)
+14 	 0.269 	 KARS160120 	 Weighted minimum eigenvalue based on the atomic numbers (Karkbara-Knisley; 2016)
+15 	 0.269 	 FAUJ880111 	 Positive charge (Fauchere et al.; 1988)
+   	 0.252 	 CHAM830107 	 A parameter of charge transfer capability (Charton-Charton; 1983)
+   	 0.245 	 HOPA770101 	 Hydration number (Hopfinger; 1971); Cited by Charton-Charton (1982)
+   	 0.232 	 FAUJ880110 	 Number of full nonbonding orbitals (Fauchere et al.; 1988)
+
+['FAUJ880112', 'CHAM830107', 'ZIMJ680103', 'RICJ880106', 'FAUJ880110', 'HOPA770101', 'ISOY800107', 'RICJ880105', 'ENGD860101', 'PRAM900101', 'MITS020101', 'FINA910102', 'FINA910104', 'KARS160120', 'FAUJ880111']
+
+../results/aaindex_feature_sel_2020_IPC2_peptide_75.csv
+
+FAUJ880112,Negative charge (Fauchere et al.; 1988),0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+CHAM830107,A parameter of charge transfer capability (Charton-Charton; 1983),0.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZIMJ680103,Polarity (Zimmerman et al.; 1968),0.0,52.0,3.38,49.7,1.48,3.53,49.9,0.0,51.6,0.13,0.13,49.5,1.43,0.35,1.58,1.67,1.66,2.1,1.61,0.13
+RICJ880106,Relative preference value at N3 (Richardson-Richardson; 1988),1.0,0.4,0.7,2.2,0.6,1.5,3.3,0.6,0.7,0.4,0.6,0.8,1.0,0.6,0.4,0.4,1.0,1.4,1.2,1.1
+FAUJ880110,Number of full nonbonding orbitals (Fauchere et al.; 1988),0.0,3.0,3.0,4.0,0.0,3.0,4.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,2.0,2.0,0.0,2.0,0.0
+HOPA770101,Hydration number (Hopfinger; 1971); Cited by Charton-Charton (1982),1.0,2.3,2.2,6.5,0.1,2.1,6.2,1.1,2.8,0.8,0.8,5.3,0.7,1.4,0.9,1.7,1.5,1.9,2.1,0.9
+ISOY800107,Normalized relative frequency of double bend (Isogai et al.; 1980),1.34,2.78,0.92,1.77,1.44,0.79,2.54,0.95,0.0,0.52,1.05,0.79,0.0,0.43,0.37,0.87,1.14,1.79,0.73,0.0
+RICJ880105,Relative preference value at N2 (Richardson-Richardson; 1988),1.6,0.9,0.7,2.6,1.2,0.8,2.0,0.9,0.7,0.7,0.3,1.0,1.0,0.9,0.5,0.8,0.7,1.7,0.4,0.6
+ENGD860101,Hydrophobicity index (Engelman et al.; 1986),-1.6,12.3,4.8,9.2,-2.0,4.1,8.2,-1.0,3.0,-3.1,-2.8,8.8,-3.4,-3.7,0.2,-0.6,-1.2,-1.9,0.7,-2.6
+PRAM900101,Hydrophobicity (Prabhakaran; 1990),-6.7,51.5,20.1,38.5,-8.4,17.2,34.3,-4.2,12.6,-13.0,-11.7,36.8,-14.2,-15.5,0.8,-2.5,-5.0,-7.9,2.9,-10.9
+MITS020101,Amphiphilicity index (Mitaku et al.; 2002),0.0,2.45,0.0,0.0,0.0,1.25,1.27,0.0,1.45,0.0,0.0,3.67,0.0,0.0,0.0,0.0,0.0,6.93,5.06,0.0
+FINA910102,Helix initiation parameter at posision i;i+1;i+2 (Finkelstein et al.; 1991),1.0,0.7,1.0,1.7,1.0,1.0,1.7,1.3,1.0,1.0,1.0,0.7,1.0,1.0,13.0,1.0,1.0,1.0,1.0,1.0
+FINA910104,Helix termination parameter at posision j+1 (Finkelstein et al.; 1991),1.0,1.7,1.0,0.7,1.0,1.0,0.7,1.5,1.0,1.0,1.0,1.7,1.0,1.0,0.1,1.0,1.0,1.0,1.0,1.0
+KARS160120,Weighted minimum eigenvalue based on the atomic numbers (Karkbara-Knisley; 2016),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,-1.734,-1.641,0.0,-0.179,0.0,0.0,0.0,0.0,-4.227,0.211,-0.96,0.0
+FAUJ880111,Positive charge (Fauchere et al.; 1988),0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+
+            FAUJ880112  CHAM830107  ZIMJ680103  RICJ880106  FAUJ880110  ...  MITS020101  FINA910102  FINA910104  KARS160120  FAUJ880111
+FAUJ880112    1.000000    0.666667    0.565034    0.849277    0.634451  ...   -0.081273    0.005738   -0.320739    0.138981   -0.140028
+CHAM830107    0.666667    1.000000    0.284444    0.511744    0.519096  ...   -0.204439   -0.043992   -0.067656    0.208472   -0.210042
+ZIMJ680103    0.565034    0.284444    1.000000    0.402046    0.561014  ...    0.212014   -0.107327    0.241509    0.021258    0.736341
+RICJ880106    0.849277    0.511744    0.402046    1.000000    0.584041  ...    0.181187   -0.126746   -0.276761    0.098661   -0.220566
+FAUJ880110    0.634451    0.519096    0.561014    0.584041    1.000000  ...    0.068725   -0.158530   -0.010406   -0.054959    0.121147
+HOPA770101    0.799036    0.533477    0.814574    0.708801    0.713494  ...    0.246277   -0.107901    0.034380    0.082134    0.321395
+ISOY800107    0.509011    0.356397    0.439824    0.447454    0.540693  ...    0.267137   -0.167819    0.189366    0.162279    0.100372
+RICJ880105    0.779548    0.494713    0.446307    0.699921    0.379758  ...    0.100770   -0.143829   -0.121710    0.264176   -0.100762
+ENGD860101    0.512328    0.412029    0.853532    0.390056    0.787684  ...    0.231345   -0.040094    0.262353    0.143444    0.586939
+PRAM900101    0.512095    0.411813    0.853576    0.390071    0.787858  ...    0.231618   -0.040552    0.262542    0.143259    0.587142
+MITS020101   -0.081273   -0.204439    0.212014    0.181187    0.068725  ...    1.000000   -0.153225    0.270545    0.072435    0.309967
+FINA910102    0.005738   -0.043992   -0.107327   -0.126746   -0.158530  ...   -0.153225    1.000000   -0.675902    0.105476   -0.137398
+FINA910104   -0.320739   -0.067656    0.241509   -0.276761   -0.010406  ...    0.270545   -0.675902    1.000000    0.006658    0.564212
+KARS160120    0.138981    0.208472    0.021258    0.098661   -0.054959  ...    0.072435    0.105476    0.006658    1.000000   -0.086720
+FAUJ880111   -0.140028   -0.210042    0.736341   -0.220566    0.121147  ...    0.309967   -0.137398    0.564212   -0.086720    1.000000
+
+[15 rows x 15 columns]
+
+[ True False False  True False False  True  True  True  True False False
+ False False  True]
+ 
+[1 9 8 1 4 3 1 1 1 1 5 6 2 7 1]
+
+Optimum number of features: 14
+
+Score with 14 features: 0.755716

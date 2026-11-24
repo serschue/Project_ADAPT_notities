@@ -1,0 +1,19 @@
+{
+    "name": "helloworld",
+    "description": "Hello World!",
+    "request": {
+        "resources": {
+            "cpus": 2,
+            "gpus": 0,
+            "cpuMemoryGb": 2,
+            "clusterId": 3
+        },
+        "docker": {
+            "image": "debian:stable",
+            "command": "nvidia-smi"
+        },
+        "scheduling": {
+            "interactive": true
+        }
+    }
+}

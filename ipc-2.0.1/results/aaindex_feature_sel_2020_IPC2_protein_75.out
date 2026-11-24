@@ -1,0 +1,118 @@
+Peptide/protein number: 1743
+566 566
+1000
+genetating finished
+
+   ANDN920101  ARGP820101  ARGP820102  ARGP820103  BEGF750101  BEGF750102  ...  KARS160118  KARS160119  KARS160120  KARS160121  KARS160122    pI
+0     1141.00      232.34      254.69      273.98      149.33      191.77  ...     1558.61     5817.18      974.83     2423.96      955.25  6.55
+1      212.50       42.78       45.08       50.37       31.29       35.54  ...      293.93     1084.63      192.75      447.11      142.04  4.90
+2      264.43       48.24       57.34       61.66       37.32       45.03  ...      362.85     1354.12      236.14      553.25      186.49  5.43
+3       64.10       11.95       13.57       15.29       10.19       11.08  ...       88.96      301.01       61.16      122.60       37.00  5.10
+4     1550.75      336.81      364.69      391.51      214.67      265.85  ...     2116.21     8170.32     1373.20     3379.45     1096.50  4.80
+
+[5 rows x 567 columns]
+Top 10 features:
+0.16594 	 FAUJ880112 	 Negative charge (Fauchere et al.; 1988)
+0.12213 	 CHAM830107 	 A parameter of charge transfer capability (Charton-Charton; 1983)
+0.11169 	 ROBB760102 	 Information measure for N-terminal helix (Robson-Suzuki; 1976)
+0.10632 	 RICJ880106 	 Relative preference value at N3 (Richardson-Richardson; 1988)
+0.10181 	 SUEM840102 	 Zimm-Bragg parameter sigma x 1.0E4 (Sueki et al.; 1984)
+0.10034 	 CHOP780204 	 Normalized frequency of N-terminal helix (Chou-Fasman; 1978b)
+0.09935 	 FAUJ880110 	 Number of full nonbonding orbitals (Fauchere et al.; 1988)
+0.09783 	 RICJ880105 	 Relative preference value at N2 (Richardson-Richardson; 1988)
+0.09687 	 QIAN880103 	 Weights for alpha-helix at the window position of -4 (Qian-Sejnowski; 1988)
+0.09678 	 FAUJ880108 	 Localized electrical effect (Fauchere et al.; 1988)
+
+f_regression
+          Specs      Score
+88   FAUJ880112  49.295579
+29   CHAM830107  26.360391
+339  ROBB760102  21.991850
+326  RICJ880106  19.906187
+363  SUEM840102  18.235978
+40   CHOP780204  17.707938
+86   FAUJ880110  17.356825
+325  RICJ880105  16.824174
+259  QIAN880103  16.491922
+84   FAUJ880108  16.459782
+
+Mutual_info_regression
+          Specs     Score
+210  NISK860101  0.093259
+279  QIAN880123  0.093155
+88   FAUJ880112  0.092224
+155  LEVM760104  0.089613
+275  QIAN880119  0.086342
+207  NAKH920107  0.084690
+135  JUKT750101  0.083483
+528  CASG920101  0.083298
+535  CORJ870107  0.082301
+488  WILM950102  0.082169
+1 	 49.296 	 FAUJ880112 	 Negative charge (Fauchere et al.; 1988)
+2 	 26.360 	 CHAM830107 	 A parameter of charge transfer capability (Charton-Charton; 1983)
+3 	 21.992 	 ROBB760102 	 Information measure for N-terminal helix (Robson-Suzuki; 1976)
+4 	 19.906 	 RICJ880106 	 Relative preference value at N3 (Richardson-Richardson; 1988)
+5 	 18.236 	 SUEM840102 	 Zimm-Bragg parameter sigma x 1.0E4 (Sueki et al.; 1984)
+6 	 17.708 	 CHOP780204 	 Normalized frequency of N-terminal helix (Chou-Fasman; 1978b)
+7 	 17.357 	 FAUJ880110 	 Number of full nonbonding orbitals (Fauchere et al.; 1988)
+8 	 16.824 	 RICJ880105 	 Relative preference value at N2 (Richardson-Richardson; 1988)
+9 	 16.492 	 QIAN880103 	 Weights for alpha-helix at the window position of -4 (Qian-Sejnowski; 1988)
+10 	 16.460 	 FAUJ880108 	 Localized electrical effect (Fauchere et al.; 1988)
+11 	 0.093 	 NISK860101 	 14 A contact number (Nishikawa-Ooi; 1986)
+12 	 0.093 	 QIAN880123 	 Weights for beta-sheet at the window position of 3 (Qian-Sejnowski; 1988)
+   	 0.092 	 FAUJ880112 	 Negative charge (Fauchere et al.; 1988)
+13 	 0.090 	 LEVM760104 	 Side chain torsion angle phi(AAAR) (Levitt; 1976)
+14 	 0.086 	 QIAN880119 	 Weights for beta-sheet at the window position of -1 (Qian-Sejnowski; 1988)
+15 	 0.085 	 NAKH920107 	 AA composition of EXT of multi-spanning proteins (Nakashima-Nishikawa; 1992)
+16 	 0.083 	 JUKT750101 	 Amino acid distribution (Jukes et al.; 1975)
+17 	 0.083 	 CASG920101 	 Hydrophobicity scale from native protein structures (Casari-Sippl; 1992)
+18 	 0.082 	 CORJ870107 	 TOTFT index (Cornette et al.; 1987)
+19 	 0.082 	 WILM950102 	 Hydrophobicity coefficient in RP-HPLC; C8 with 0.1%TFA/MeCN/H2O (Wilce et al. 1995)
+
+['FAUJ880112', 'CHAM830107', 'ROBB760102', 'RICJ880106', 'SUEM840102', 'CHOP780204', 'FAUJ880110', 'RICJ880105', 'QIAN880103', 'FAUJ880108', 'NISK860101', 'QIAN880123', 'LEVM760104', 'QIAN880119', 'NAKH920107', 'JUKT750101', 'CASG920101', 'CORJ870107', 'WILM950102']
+
+../results/aaindex_feature_sel_2020_IPC2_protein_75.csv
+
+FAUJ880112,Negative charge (Fauchere et al.; 1988),0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+CHAM830107,A parameter of charge transfer capability (Charton-Charton; 1983),0.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ROBB760102,Information measure for N-terminal helix (Robson-Suzuki; 1976),2.3,-5.2,0.3,7.4,0.8,-0.7,10.3,-5.2,-2.8,-4.0,-2.1,-4.1,-3.5,-1.1,8.1,-3.5,2.3,-0.9,-3.7,-4.4
+RICJ880106,Relative preference value at N3 (Richardson-Richardson; 1988),1.0,0.4,0.7,2.2,0.6,1.5,3.3,0.6,0.7,0.4,0.6,0.8,1.0,0.6,0.4,0.4,1.0,1.4,1.2,1.1
+SUEM840102,Zimm-Bragg parameter sigma x 1.0E4 (Sueki et al.; 1984),8.0,0.1,0.1,70.0,26.0,33.0,6.0,0.1,0.1,55.0,33.0,1.0,54.0,18.0,42.0,0.1,0.1,77.0,66.0,0.1
+CHOP780204,Normalized frequency of N-terminal helix (Chou-Fasman; 1978b),1.29,0.44,0.81,2.02,0.66,1.22,2.44,0.76,0.73,0.67,0.58,0.66,0.71,0.61,2.01,0.74,1.08,1.47,0.68,0.61
+FAUJ880110,Number of full nonbonding orbitals (Fauchere et al.; 1988),0.0,3.0,3.0,4.0,0.0,3.0,4.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,2.0,2.0,0.0,2.0,0.0
+RICJ880105,Relative preference value at N2 (Richardson-Richardson; 1988),1.6,0.9,0.7,2.6,1.2,0.8,2.0,0.9,0.7,0.7,0.3,1.0,1.0,0.9,0.5,0.8,0.7,1.7,0.4,0.6
+QIAN880103,Weights for alpha-helix at the window position of -4 (Qian-Sejnowski; 1988),0.64,-0.1,0.09,0.33,0.03,-0.23,0.51,-0.09,-0.23,-0.22,0.41,-0.17,0.13,-0.03,-0.43,-0.1,-0.07,-0.02,-0.38,-0.01
+FAUJ880108,Localized electrical effect (Fauchere et al.; 1988),-0.01,0.04,0.06,0.15,0.12,0.05,0.07,0.0,0.08,-0.01,-0.01,0.0,0.04,0.03,0.0,0.11,0.04,0.0,0.03,0.01
+NISK860101,14 A contact number (Nishikawa-Ooi; 1986),-0.22,-0.93,-2.65,-4.12,4.66,-2.76,-3.64,-1.62,1.28,5.58,5.01,-4.18,3.51,5.27,-3.03,-2.84,-1.2,5.2,2.15,4.45
+QIAN880123,Weights for beta-sheet at the window position of 3 (Qian-Sejnowski; 1988),-0.44,-0.13,0.05,-0.2,0.13,-0.58,-0.28,0.08,0.09,-0.04,-0.12,-0.33,-0.21,-0.13,-0.48,0.27,0.47,-0.22,-0.11,0.06
+LEVM760104,Side chain torsion angle phi(AAAR) (Levitt; 1976),243.2,206.6,207.1,215.0,209.4,205.4,213.6,300.0,219.9,217.9,205.6,210.9,204.0,203.7,237.4,232.0,226.7,203.7,195.6,220.3
+QIAN880119,Weights for beta-sheet at the window position of -1 (Qian-Sejnowski; 1988),-0.1,0.19,-0.89,-0.89,0.13,-0.04,-0.34,-0.45,-0.34,0.95,0.32,-0.46,0.43,0.36,-0.91,-0.12,0.49,0.34,0.42,0.76
+NAKH920107,AA composition of EXT of multi-spanning proteins (Nakashima-Nishikawa; 1992),5.08,4.75,5.75,5.96,2.95,4.24,6.04,8.2,2.1,4.95,8.03,4.93,2.61,4.36,4.84,6.41,5.87,2.31,4.55,6.07
+JUKT750101,Amino acid distribution (Jukes et al.; 1975),5.3,2.6,3.0,3.6,1.3,2.4,3.3,4.8,1.4,3.1,4.7,4.1,1.1,2.3,2.5,4.5,3.7,0.8,2.3,4.2
+CASG920101,Hydrophobicity scale from native protein structures (Casari-Sippl; 1992),0.2,-0.7,-0.5,-1.4,1.9,-1.1,-1.3,-0.1,0.4,1.4,0.5,-1.6,0.5,1.0,-1.0,-0.7,-0.4,1.6,0.5,0.7
+CORJ870107,TOTFT index (Cornette et al.; 1987),-0.56,-0.26,-2.87,-4.31,1.78,-2.31,-2.35,-1.35,0.81,3.83,4.09,-4.08,3.11,3.67,-3.22,-1.85,-1.97,-0.11,2.17,3.31
+WILM950102,Hydrophobicity coefficient in RP-HPLC; C8 with 0.1%TFA/MeCN/H2O (Wilce et al. 1995),2.62,1.26,-1.27,-2.84,0.73,-1.69,-0.45,-1.15,-0.74,4.38,6.57,-2.78,-3.12,9.14,-0.12,-1.39,1.81,5.91,1.39,2.3
+
+            FAUJ880112  CHAM830107  ROBB760102  RICJ880106  SUEM840102  ...  NAKH920107  JUKT750101  CASG920101  CORJ870107  WILM950102
+FAUJ880112    1.000000    0.666667    0.702616    0.849277    0.169196  ...    0.205291    0.104005   -0.444030   -0.393006   -0.272909
+CHAM830107    0.666667    1.000000    0.416037    0.511744   -0.102062  ...    0.458055    0.243762   -0.406065   -0.477362   -0.376054
+ROBB760102    0.702616    0.416037    1.000000    0.622858    0.150976  ...    0.057281    0.000925   -0.380607   -0.494155   -0.132605
+RICJ880106    0.849277    0.511744    0.622858    1.000000    0.194484  ...    0.034780   -0.021799   -0.343675   -0.319358   -0.216735
+SUEM840102    0.169196   -0.102062    0.150976    0.194484    1.000000  ...   -0.336371   -0.461510    0.301888    0.196706    0.156496
+CHOP780204    0.739875    0.452836    0.910896    0.736342    0.267763  ...    0.042365   -0.003015   -0.443991   -0.572736   -0.214105
+FAUJ880110    0.634451    0.519096    0.386214    0.584041   -0.097512  ...    0.168587    0.049939   -0.684629   -0.590965   -0.464907
+RICJ880105    0.779548    0.494713    0.562594    0.699921    0.247048  ...   -0.101375   -0.017541   -0.203113   -0.413287   -0.192717
+QIAN880103    0.504335    0.375530    0.389487    0.481258   -0.095322  ...    0.283557    0.386183   -0.043427   -0.000673    0.100566
+FAUJ880108    0.512851    0.329690    0.318373    0.311109   -0.005944  ...   -0.150593   -0.223738   -0.208977   -0.305126   -0.459101
+NISK860101   -0.411924   -0.494690   -0.422436   -0.308307    0.340630  ...   -0.323408   -0.357901    0.938121    0.928156    0.718048
+QIAN880123   -0.178761    0.037020   -0.299985   -0.296489   -0.356930  ...    0.189715    0.092873    0.285268    0.191854    0.064262
+LEVM760104   -0.069196    0.339025   -0.020655   -0.188683   -0.364925  ...    0.492058    0.528446   -0.140499   -0.259535   -0.199584
+QIAN880119   -0.383905   -0.601925   -0.508060   -0.182166    0.171907  ...   -0.164198   -0.136458    0.663203    0.797899    0.576886
+NAKH920107    0.205291    0.458055    0.057281    0.034780   -0.336371  ...    1.000000    0.862132   -0.385862   -0.175698    0.010027
+JUKT750101    0.104005    0.243762    0.000925   -0.021799   -0.461510  ...    0.862132    1.000000   -0.392262   -0.217931   -0.028097
+CASG920101   -0.444030   -0.406065   -0.380607   -0.343675    0.301888  ...   -0.385862   -0.392262    1.000000    0.813053    0.630689
+CORJ870107   -0.393006   -0.477362   -0.494155   -0.319358    0.196706  ...   -0.175698   -0.217931    0.813053    1.000000    0.630945
+WILM950102   -0.272909   -0.376054   -0.132605   -0.216735    0.156496  ...    0.010027   -0.028097    0.630689    0.630945    1.000000
+
+[19 rows x 19 columns]
+
